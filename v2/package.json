@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harikiranyalavarthi9.github.io/chatapp_v2",
+  "homepage": "https://harikiranyalavarthi9.github.io/ChatApp",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
