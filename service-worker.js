@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/chatapp_v2/precache-manifest.5abe0474ebbc41610cffb9bf2d522ee5.js"
+  "/ChatApp/precache-manifest.6d8b3ecaf78357f2cceebfcde861b26a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/chatapp_v2/index.html", {
+workbox.routing.registerNavigationRoute("/ChatApp/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
