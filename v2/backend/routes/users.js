@@ -6,10 +6,23 @@ router.get('/', function(req, res, next) {
   // res.send('respond with a resource');
   res.json([{
     id: 1,
-  	username: "samsepi0l"
+  	username: "qastest"
   }, {
   	id: 2,
-  	username: "D0loresH4ze"
+  	username: "qasdevelopment"
+  }]);
+});
+
+router.get('/:id', function(req, res, next) {
+  res.json([{
+    firstname: "Hari Kiran",
+    lastname: "Yalavarthi"
+  }, {
+    firstname: "Ravindra Babu",
+    lastname: "Yalavarthi"
+  }, {
+    firstname: "Vanaja",
+    lastname: "Gogineni"
   }]);
 });
 
